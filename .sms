@@ -20,8 +20,8 @@ carrier=
 
 #The [settings] section is currently used to specify the URL of
 #the SMS Queuing service. SSL is enabled by default, but you can
-#opt to turn it off with 'SSL=False'.
+#opt to turn it off with 'SSL=false'.
 
 [settings]
-SSL=True
+SSL=true
 server=
