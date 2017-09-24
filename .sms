@@ -1,7 +1,27 @@
-[Default]
+#
+#This is the user configuration file for the SMS Queuing service
+#client.
+
+#Users are configured under a unique heading enclosed in
+#brackets []. Unless specified otherwise at the command line,
+#the [default] user is used.
+
+#The number section can optionality be delimited with dashes.
+#If you are unsure of the SMS gateway for your provider, visit:
+#https://martinfitzpatrick.name/list-of-email-to-sms-gateways/
+
+#[defualt]
+#number=XXXXXXXXXX
+#carrier=vtext.com
+
+[default]
 number=
 carrier=
 
-[Settings]
-SSL=true
+#The [settings] section is currently used to specify the URL of
+#the SMS Queuing service. SSL is enabled by default, but you can
+#opt to turn it off with 'SSL=False'.
+
+[settings]
+SSL=True
 server=
